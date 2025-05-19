@@ -102,7 +102,7 @@ aidingAssignment:
   # 2 Module connected on PORT_C
   # 3 Module connected on PORT_D
   # 5 Module is connected internally
-  gnss1ModulePortAssignment: 255
+  gnss1ModulePortAssignment: 5
   # GNSS module sync assignment:
   # 0 Module is disabled
   # 1 Synchronization is done using SYNC_IN_A pin
@@ -114,7 +114,7 @@ aidingAssignment:
   # 7 Synchronization is done using SYNC_OUT_B pin
   gnss1ModuleSyncAssignment: 0
   # RTCM input port assignment for Ellipse-N DGPS (see gnss1ModulePortAssignment for values)
-  rtcmPortAssignment: 255
+  rtcmPortAssignment: 5
   # Odometer module pin assignment
   # 0 Odometer is disabled
   # 1 Odometer connected only to ODO_A (unidirectional).
