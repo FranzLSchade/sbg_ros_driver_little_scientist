@@ -1,5 +1,6 @@
 <launch>
   <node name="sbg_device" pkg="sbg_driver" type="sbg_device" output="screen">
   	<rosparam command="load" file="$(find sbg_driver)/config/example/ellipse_N_default.yaml" />
+    <param name="device_config/activate_device_configuration" value="false" type="bool"/>
   </node>
 </launch>
