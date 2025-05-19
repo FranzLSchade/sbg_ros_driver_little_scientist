@@ -25,7 +25,7 @@ odometry:
     initFrameId: "map"
 
 # Configuration of the device with ROS.
-confWithRos: true
+confWithRos: false
 
 uartConf:
   # Port Name
